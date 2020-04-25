@@ -22,9 +22,6 @@ while flag:
     res = ''
     while flag:
         res = input("Хотите начать сначала? (да/нет)")
-        if res.lower() == 'да':
-            flag = True
-            break
         if input_errors >= 2:
             res = 'нет'
             flag = False
